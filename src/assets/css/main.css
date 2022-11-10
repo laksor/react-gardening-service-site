@@ -177,11 +177,11 @@ textarea:focus {
     opacity: .60;
 }
 
-[data-overlay="theme-1"]::before {
+[data-overlay="1"]::before {
     background-color: #523906;
 }
 
-[data-overlay="theme-2"]::before {
+[data-overlay="2"]::before {
     background-color: #cdb30c;
 }
 
@@ -895,6 +895,7 @@ button.popup-video {
 .about-img-style-1 img {
     width: 100%;
     padding-right: 110px;
+    border-radius: 10px;
 }
 
 .about-img-style-1:before {
@@ -902,11 +903,12 @@ button.popup-video {
     display: block;
     position: absolute;
     width: 80%;
-    height: 90%;
+    height: 85%;
     background-color: #cdb30c;
     z-index: -1;
     top: 80px;
     right: 80px;
+    border-radius: 10px;
 }
 
 .about-award {
