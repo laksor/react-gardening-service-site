@@ -1618,6 +1618,7 @@ a.l-btn.quote-btn svg {
 
 .works-img img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .works-link {

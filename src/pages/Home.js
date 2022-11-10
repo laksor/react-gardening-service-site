@@ -7,6 +7,7 @@ import HomeAbout from "../components/home-about/HomeAbout";
 import WhyChoseUs from "../components/why-chose-us/WhyChoseUs";
 import FunFact from "../components/fun-fact/FunFact";
 import Service from "../components/sevices/Service";
+import HowItWork from "../components/how-it-work/HowItWork";
 const Home = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const Home = () => {
             <HomeAbout />
             <FunFact />
             <Service />
+            <HowItWork />
         </>
     )
 }
