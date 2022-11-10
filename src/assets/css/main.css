@@ -529,6 +529,9 @@ textarea:focus {
 .header-call-btn a:hover {
     color: #cdb30c;
 }
+.sticky-top {
+    background-color: white;
+}
 
 /**
 *   06. Hero area

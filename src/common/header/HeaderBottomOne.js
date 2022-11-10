@@ -7,7 +7,7 @@ import MobileMenu from './MobileMenu';
 const HeaderBottomOne = () => {
     return (
         <>
-            <div className="header-bottom">
+            <div className="header-bottom sticky-top">
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         <div className="col-xl-2 col-lg-2 col-md-4">
