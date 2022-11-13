@@ -95,13 +95,13 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div className="copyright">
-                                    <p>© 2022 All right reserved. Developed by <a href="https://github.com/laksor">Ahmed Laskor</a>.</p>
+                                    <p>© 2022 Champion All right reserved. Developed by <a href="https://github.com/laksor">Ahmed Laskor</a>.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-xl-end text-lg-end text-md-end text-center">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link to="/">About</Link></li>
+                                        <li><Link to="/">About Champion</Link></li>
                                         <li><Link to="/">Careers</Link></li>
                                         <li><Link to="/">Privacy Policy</Link></li>
                                     </ul>
