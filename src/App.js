@@ -10,7 +10,7 @@ import './assets/css/default.css';
 import './assets/css/main.css';
 import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
-
+import './assets/vendor/slick/slick.css';
 function App() {
   return (
     <Router>

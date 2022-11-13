@@ -9,6 +9,7 @@ import FunFact from "../components/fun-fact/FunFact";
 import Service from "../components/sevices/Service";
 import HowItWork from "../components/how-it-work/HowItWork";
 import Project from "../components/home-project/Project";
+import Testimonial from "../components/testimonial/Testimonial";
 const Home = () => {
     return (
         <>
@@ -22,6 +23,7 @@ const Home = () => {
             <Service />
             <HowItWork />
             <Project />
+            <Testimonial />
         </>
     )
 }

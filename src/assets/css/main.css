@@ -1387,16 +1387,16 @@ button.popup-video {
     font-size: 18px;
 }
 
-.testimonial-style-1 ul.slick-dots {
+.testimonial-slider ul.slick-dots {
     text-align: center;
     margin-top: 50px;
 }
 
-.testimonial-style-1 ul.slick-dots button {
+.testimonial-slider ul.slick-dots button {
     width: 27px;
 }
 
-.testimonial-style-1 ul.slick-dots li button {
+.testimonial-slider ul.slick-dots li button {
     background-color: #523906;
     border: none;
     width: 23px;
@@ -1404,20 +1404,20 @@ button.popup-video {
     border-radius: 50px;
 }
 
-.testimonial-style-1 ul.slick-dots li {
+.testimonial-slider ul.slick-dots li {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
     font-size: 0;
 }
 
-.testimonial-style-1 ul.slick-dots li.slick-active button {
+.testimonial-slider ul.slick-dots li.slick-active button {
     width: 36px;
     height: 7px;
     background-color: #ccb20c;
 }
 
-.testimonial-style-1 .slick-slide {
+.testimonial-slider .slick-slide {
     margin: 0 10px;
     width: 412px!important;
 }
