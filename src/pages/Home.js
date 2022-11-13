@@ -10,6 +10,8 @@ import Service from "../components/sevices/Service";
 import HowItWork from "../components/how-it-work/HowItWork";
 import Project from "../components/home-project/Project";
 import Testimonial from "../components/testimonial/Testimonial";
+import Blog from "../components/home-blog/blog";
+import Subscribe from "../components/subscribe/Subscribe";
 const Home = () => {
     return (
         <>
@@ -24,6 +26,8 @@ const Home = () => {
             <HowItWork />
             <Project />
             <Testimonial />
+            <Blog />
+            <Subscribe />
         </>
     )
 }
