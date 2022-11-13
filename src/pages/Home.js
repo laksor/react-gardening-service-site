@@ -12,6 +12,7 @@ import Project from "../components/home-project/Project";
 import Testimonial from "../components/testimonial/Testimonial";
 import Blog from "../components/home-blog/blog";
 import Subscribe from "../components/subscribe/Subscribe";
+import Appointment from "../components/home-appointment/Appointment";
 const Home = () => {
     return (
         <>
@@ -23,11 +24,12 @@ const Home = () => {
             <HomeAbout />
             <FunFact />
             <Service />
-            <HowItWork />
             <Project />
-            <Testimonial />
+            <HowItWork />
             <Blog />
             <Subscribe />
+            <Testimonial />
+            <Appointment />
         </>
     )
 }
