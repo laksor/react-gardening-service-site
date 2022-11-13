@@ -13,6 +13,7 @@ import Testimonial from "../components/testimonial/Testimonial";
 import Blog from "../components/home-blog/blog";
 import Subscribe from "../components/subscribe/Subscribe";
 import Appointment from "../components/home-appointment/Appointment";
+import Footer from "../common/footer/Footer";
 const Home = () => {
     return (
         <>
@@ -30,6 +31,7 @@ const Home = () => {
             <Subscribe />
             <Testimonial />
             <Appointment />
+            <Footer />
         </>
     )
 }
