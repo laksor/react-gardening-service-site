@@ -8,6 +8,7 @@ import WhyChoseUs from "../components/why-chose-us/WhyChoseUs";
 import FunFact from "../components/fun-fact/FunFact";
 import Service from "../components/sevices/Service";
 import HowItWork from "../components/how-it-work/HowItWork";
+import Project from "../components/home-project/Project";
 const Home = () => {
     return (
         <>
@@ -20,6 +21,7 @@ const Home = () => {
             <FunFact />
             <Service />
             <HowItWork />
+            <Project />
         </>
     )
 }
