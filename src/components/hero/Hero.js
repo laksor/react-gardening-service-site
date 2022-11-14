@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="hero-wrapper">
-                                <h1>Welcome to Our Perfect Solution Landscape & gardening.</h1>
+                                <h1>Welcome to Our Champion Landscape & gardening.</h1>
                                 <p>We are certified company. We provide best Landscaping & Gardening services for you your company .</p>
                                 <Link to="/" className="l-btn">Our Solution</Link>
                             </div>

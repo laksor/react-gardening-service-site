@@ -15,6 +15,7 @@ import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
 import './assets/vendor/slick/slick.css';
 import Contact from './pages/Contact';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" exact  element={<About />} />
+            <Route path="/faq" exact  element={<Faq />} />
             <Route path="/contact" exact  element={<Contact />} />
         </Routes>
         <ScrollToTop className="scrollUp" smooth top="1500" component={<FaLevelUpAlt />} />    
