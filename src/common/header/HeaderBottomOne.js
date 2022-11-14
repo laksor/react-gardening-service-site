@@ -15,7 +15,7 @@ const HeaderBottomOne = () => {
                         </div>
                         <div className="col-xl-10 col-lg-10 col-md-8">
                             <div className="header-btn f-right">
-                                <Link to="#" className="l-btn">Get a Quote</Link>
+                                <Link to="/contact" className="l-btn">Get a Quote</Link>
                             </div>
                             <Nav />
                         </div>

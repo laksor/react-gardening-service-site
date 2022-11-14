@@ -23,7 +23,7 @@ const HomeAbout = () => {
                                     <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
                                         <br /><br /> Combined with a handful of model sentence structures, Lorem Ipsum The generated Lorem Ipsum is therefore always free from repetition, injected humour, </p>
                                 </div>
-                                <a href="/" className="l-btn">Appointment</a>
+                                <a href="/contact" className="l-btn">Appointment</a>
                             </div>
                         </div>
                     </div>

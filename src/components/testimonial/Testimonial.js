@@ -123,7 +123,7 @@ const Testimonial = () => {
     };
     return (
         <>
-            <div className="testimonial-area theme-bg-4 pt-280 pb-110">
+            <div className="testimonial-area theme-bg-4 pt-90 pb-110">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">

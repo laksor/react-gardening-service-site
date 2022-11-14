@@ -98,7 +98,7 @@ const Service = () => {
                             <div className="single-service-large">
                                 <h3>We are professional <span>Landscape & Gardening service</span></h3>
                                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat omnis voluptas assumenda est, omnis dolor repellendus. </p>
-                                <a href="/" className="l-btn">Appointment</a>
+                                <a href="/contact" className="l-btn">Appointment</a>
                             </div>
                         </div>
                     </div>
