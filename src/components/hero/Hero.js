@@ -17,7 +17,7 @@ const Hero = () => {
                             <div className="hero-wrapper">
                                 <h1>Welcome to Our Champion Landscape & gardening.</h1>
                                 <p>We are certified company. We provide best Landscaping & Gardening services for you your company .</p>
-                                <Link to="/" className="l-btn">Our Solution</Link>
+                                <Link to="/projects" className="l-btn">Our Solution</Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">

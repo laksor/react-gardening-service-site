@@ -6,6 +6,10 @@ import { FaLevelUpAlt } from "react-icons/fa";
 //Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from './pages/Contact';
+import Faq from './pages/Faq';
+import Services from './pages/Services';
+import Project from './pages/Project';
 
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,9 +18,7 @@ import './assets/css/main.css';
 import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
 import './assets/vendor/slick/slick.css';
-import Contact from './pages/Contact';
-import Faq from './pages/Faq';
-import Services from './pages/Services';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/about" exact  element={<About />} />
             <Route path="/services" exact  element={<Services />} />
+            <Route path="/projects" exact  element={<Project />} />
             <Route path="/faq" exact  element={<Faq />} />
             <Route path="/contact" exact  element={<Contact />} />
         </Routes>

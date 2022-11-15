@@ -2,15 +2,18 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import { FaAngleDoubleRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import ProjectStyleOneImg1 from '../../assets/images/project/garden-care.jpg';
-import ProjectStyleOneImg2 from '../../assets/images/project/tree-plantation.jpg';
-import ProjectStyleOneImg3 from '../../assets/images/project/branch-cutting.jpg';
+import ProjectStyleFiveImg1 from '../../assets/images/project/garden-care.jpg';
+import ProjectStyleFiveImg2 from '../../assets/images/project/tree-plantation.jpg';
+import ProjectStyleFiveImg3 from '../../assets/images/project/watering.jpg';
+import ProjectStyleFiveImg4 from '../../assets/images/project/commercial-gardening.jpg';
+import ProjectStyleFiveImg5 from '../../assets/images/project/outdoor-scaping.jpg';
+import ProjectStyleFiveImg6 from '../../assets/images/project/branch-cutting.jpg';
 
-const ProjectData = [
+const ProjectsData = [
     
     {
         id: uuidv4(),
-        img: ProjectStyleOneImg1,
+        img: ProjectStyleFiveImg1,
         heading: 'Garden Care',
         description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
         btnLink: '/project-details',
@@ -18,7 +21,7 @@ const ProjectData = [
     
     {
         id: uuidv4(),
-        img: ProjectStyleOneImg2,
+        img: ProjectStyleFiveImg2,
         heading: 'Tree Plantation',
         description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
         btnLink: '/project-details',
@@ -26,7 +29,31 @@ const ProjectData = [
     
     {
         id: uuidv4(),
-        img: ProjectStyleOneImg3,
+        img: ProjectStyleFiveImg3,
+        heading: 'Watering',
+        description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
+        btnLink: '/project-details',
+    },
+    
+    {
+        id: uuidv4(),
+        img: ProjectStyleFiveImg4,
+        heading: 'Commercial Gardening',
+        description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
+        btnLink: '/project-details',
+    },
+    
+    {
+        id: uuidv4(),
+        img: ProjectStyleFiveImg5,
+        heading: 'Outdoor Scaping',
+        description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
+        btnLink: '/project-details',
+    },
+    
+    {
+        id: uuidv4(),
+        img: ProjectStyleFiveImg6,
         heading: 'Branch Cutting',
         description: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime',
         btnLink: '/project-details',
@@ -34,11 +61,11 @@ const ProjectData = [
 
 ];
 
-const ProjectItem = ({ img, heading, description, btnLink }) => {
+const ProjectsItem = ({ img, heading, description, btnLink }) => {
     return (
         <>
             <div className="col-xl-4 col-lg-4 col-md-4">
-                <div className="single-project">
+                <div className="single-project mb-25">
                     <div className="single-project-img bg-property bg-hover-style-1" style={{ backgroundImage: `url(${img})` }}>
                         <div className="single-project-img-icon">
                             <Link to={btnLink}><FaAngleDoubleRight /></Link>
@@ -54,7 +81,7 @@ const ProjectItem = ({ img, heading, description, btnLink }) => {
     )
 }
 
-const Project = () => {
+const Projects = () => {
     return (
         <>
             <div className="project-area pt-110 pb-110">
@@ -68,8 +95,8 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="row mb-60">
-                        {ProjectData.map((data) => (
-                            <ProjectItem
+                        {ProjectsData.map((data) => (
+                            <ProjectsItem
                                 key={data.id}
                                 img={data.img}
                                 heading={data.heading}
@@ -78,17 +105,10 @@ const Project = () => {
                             />
                         ))}
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="project-btn text-center">
-                                <Link to="/projects" className="l-btn">More Project</Link>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </>
     )
 }
 
-export default Project;
+export default Projects;
