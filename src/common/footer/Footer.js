@@ -19,7 +19,7 @@ const Footer = () => {
                                         <p>If you have any questions or need help, feel free to contact with our team.</p>
                                     </div>
                                     <div className="footer-info">
-                                        <Link to="/"><FaPhoneAlt /> (111) 0909 8787 666</Link>
+                                        <Link to="/"><FaPhoneAlt /> (313) 666 7777</Link>
                                     </div>
                                     <div className="footer-text">
                                         <p>2555 Detroit, Michigan</p>

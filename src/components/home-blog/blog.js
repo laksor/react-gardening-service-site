@@ -102,7 +102,7 @@ const Blog = () => {
                     <div className="row mt-4">
                         <div className="col-12">
                             <div className="project-btn text-center">
-                                <Link to="/" className="l-btn">Read More Blog</Link>
+                                <Link to="/blogs" className="l-btn">Read More Blog</Link>
                             </div>
                         </div>
                     </div>

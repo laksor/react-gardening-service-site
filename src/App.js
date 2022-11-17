@@ -18,6 +18,7 @@ import './assets/css/main.css';
 import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
 import './assets/vendor/slick/slick.css';
+import Blog from './pages/Blogs';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/about" exact  element={<About />} />
             <Route path="/services" exact  element={<Services />} />
             <Route path="/projects" exact  element={<Project />} />
+            <Route path="/blogs" exact  element={<Blog />} />
             <Route path="/faq" exact  element={<Faq />} />
             <Route path="/contact" exact  element={<Contact />} />
         </Routes>
