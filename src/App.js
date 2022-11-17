@@ -10,6 +10,8 @@ import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Services from './pages/Services';
 import Project from './pages/Project';
+import Blog from './pages/Blogs';
+import Error from './pages/Error';
 
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +20,7 @@ import './assets/css/main.css';
 import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
 import './assets/vendor/slick/slick.css';
-import Blog from './pages/Blogs';
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
             <Route path="/blogs" exact  element={<Blog />} />
             <Route path="/faq" exact  element={<Faq />} />
             <Route path="/contact" exact  element={<Contact />} />
+            <Route path="*" element={<Error />} />
         </Routes>
         <ScrollToTop className="scrollUp" smooth top="1500" component={<FaLevelUpAlt />} />    
     </Router>
