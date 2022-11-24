@@ -12,19 +12,19 @@ const ProjectContent = () => {
                 <div className="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0">
                     <div className="single-project-info theme-bg-3">
                         <span>Client Name</span>
-                        <h6>Neo Williamson</h6>
+                        <h6>Williamson</h6>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0">
                     <div className="single-project-info theme-bg-1">
                         <span>Project Value</span>
-                        <h6>$500</h6>
+                        <h6>$900</h6>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0">
                     <div className="single-project-info theme-bg-3">
                         <span>Date</span>
-                        <h6>15 November 2021</h6>
+                        <h6>15 November 2022</h6>
                     </div>
                 </div>
             </div>

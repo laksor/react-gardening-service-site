@@ -17,7 +17,7 @@ const BlogData = [
         heading: 'Complete Solution For Your Land And Garden Design.',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/service-details',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
@@ -29,7 +29,7 @@ const BlogData = [
         heading: 'The High Quality Landscape Solutions From Champion',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
@@ -41,7 +41,7 @@ const BlogData = [
         heading: '5 Tips For Landscape And Gardening Solutions',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
@@ -53,7 +53,7 @@ const BlogData = [
         heading: 'Complete Solution For Your Land And Garden Design.',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/service-details',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
@@ -65,7 +65,7 @@ const BlogData = [
         heading: 'The High Quality Landscape Solutions From Champion',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
@@ -77,7 +77,7 @@ const BlogData = [
         heading: '5 Tips For Landscape And Gardening Solutions',
         date: '25 October 2021',
         author: 'Andrew Phili',
-        btnLink: '/',
+        btnLink: '/blog-details',
         btnText: 'Read More',
     },
     
