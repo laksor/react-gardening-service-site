@@ -22,9 +22,9 @@ const BlogDetails = () => {
                 BlogBreadcrumbBg={BlogBreadcrumbBg}
                 heading="Complete Solution For Your Land And Garden Design."
                 date="25 October 2021"
-                author="Andrew Phili"
+                author="Andrew"
             />
-            <div className="blog-details-area pt-110 pb-110">
+            <div className="blog-details-area pt-80 pb-80">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-8 col-lg-8 pr-50">

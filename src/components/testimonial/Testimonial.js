@@ -7,8 +7,6 @@ import TestimonialImg2 from '../../assets/images/testimonial/2.jpg';
 import TestimonialImg3 from '../../assets/images/testimonial/3.jpg';
 import TestimonialImg4 from '../../assets/images/testimonial/4.jpg';
 import TestimonialImg5 from '../../assets/images/testimonial/5.jpg';
-import TestimonialImg6 from '../../assets/images/testimonial/6.jpg';
-import TestimonialImg7 from '../../assets/images/testimonial/7.jpg';
 
 const TestimonialData = [
     
@@ -23,7 +21,7 @@ const TestimonialData = [
     {
         id: uuidv4(),
         img: TestimonialImg2,
-        name: 'Adam panther',
+        name: 'Andrew',
         position: 'Founder, Wakanda',
         description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
     },
@@ -31,7 +29,7 @@ const TestimonialData = [
     {
         id: uuidv4(),
         img: TestimonialImg3,
-        name: 'Adam panther',
+        name: 'Natalia',
         position: 'Founder, Wakanda',
         description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
     },
@@ -39,7 +37,7 @@ const TestimonialData = [
     {
         id: uuidv4(),
         img: TestimonialImg4,
-        name: 'Adam panther',
+        name: 'Andrew',
         position: 'Founder, Wakanda',
         description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
     },
@@ -51,23 +49,6 @@ const TestimonialData = [
         position: 'Founder, Wakanda',
         description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
     },
-    
-    {
-        id: uuidv4(),
-        img: TestimonialImg6,
-        name: 'Adam panther',
-        position: 'Founder, Wakanda',
-        description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
-    },
-    
-    {
-        id: uuidv4(),
-        img: TestimonialImg7,
-        name: 'Adam panther',
-        position: 'Founder, Wakanda',
-        description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur dolores ratione voluptatem',
-    },
-
 ];
 
 const TestimonialItem = ({ img, name, position, description }) => {

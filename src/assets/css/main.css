@@ -201,56 +201,7 @@ textarea:focus {
     background-color: #cdb30c!important;
     color: #fff!important;
 }
-
-
-/**
-*   02. Preloader
-*/
-
-.preloader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #cdb30c;
-    z-index: 99;
-}
-
-.preloader .sk-plane,
-.preloader .sk-chase,
-.preloader .sk-bounce,
-.preloader .sk-wave,
-.preloader .sk-pulse,
-.preloader .sk-flow,
-.preloader .sk-swing,
-.preloader .sk-circle,
-.preloader .sk-circle-fade,
-.preloader .sk-grid,
-.preloader .sk-fold,
-.preloader .sk-wander {
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    margin: 0;
-    margin-left: -20px;
-    margin-top: -20px;
-}
-
-.sk-plane,
-.sk-chase-dot:before,
-.sk-bounce-dot,
-.sk-wave-rect,
-.sk-pulse,
-.sk-flow-dot,
-.sk-swing-dot,
-.sk-circle-dot:before,
-.sk-circle-fade-dot:before,
-.sk-grid-cube,
-.sk-fold-cube:before,
-.sk-wander-cube {
-    background-color: #523906;
-}
-
-
+ssss
 /**
 *   03. Common Classes
 */
@@ -2747,61 +2698,6 @@ a.l-contact-btn span svg {
 *   27. Team
 */
 
-.single-team-style-1-img {
-    position: relative;
-}
-
-.single-team-style-1:hover {
-    transition: .3s;
-}
-
-.single-team-style-1:hover .single-team-style-1-img:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #3e2c07;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 100%;
-    opacity: .75;
-    visibility: visible;
-    transition: .3s;
-}
-
-.single-team-style-1-img:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #3e2c07;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    overflow: hidden;
-}
-
-.single-team-style-1-img img {
-    border-radius: 100%;
-    width: 100%;
-}
-
-.single-team-style-1 h4 {
-    margin-top: 35px;
-    font-size: 20px;
-}
-
-.single-team-style-1 span {
-    font-size: 18px;
-    color: #cdb30c;
-}
-
-.team-social-style-1,
 .team-social-style-2 {
     position: absolute;
     top: 50%;
@@ -2812,7 +2708,7 @@ a.l-contact-btn span svg {
     width: 100%;
 }
 
-.team-social-style-1 a,
+
 .team-social-style-2 a {
     display: inline-block;
     color: #fff;
@@ -2832,14 +2728,14 @@ a.l-contact-btn span svg {
     transform: translate(-50%, -60%);
 }
 
-.team-social-style-1 a:hover,
+
 .team-social-style-2 a:hover {
     background-color: #fff;
     color: #cdb30c;
     border-color: #fff;
 }
 
-.single-team-style-1:hover .team-social-style-1,
+
 .single-team-style-2:hover .team-social-style-2 {
     visibility: visible;
     opacity: 1;
@@ -3064,61 +2960,7 @@ a.l-contact-btn span svg {
     margin-bottom: 25px;
 }
 
-.single-testimonial-style-3-navigator img {
-    width: 65px;
-    height: 65px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 20px;
-    padding: 3px;
-}
 
-.single-testimonial-style-3-navigator h5 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.single-testimonial-style-3-navigator {
-    opacity: .4;
-}
-
-.slick-active.slick-current .single-testimonial-style-3-navigator {
-    opacity: 1;
-}
-
-.slick-active.slick-current .single-testimonial-style-3-navigator img {
-    width: 65px;
-    height: 65px;
-    border: 1px solid #cdb30c;
-    padding: 3px;
-}
-
-.testimonial-style-3-navigator .slick-prev,
-.testimonial-style-3-navigator .slick-next {
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 50px;
-    font-size: 14px;
-    background-color: #523906;
-    color: #fff;
-    position: absolute;
-    bottom: 15px;
-    z-index: 99;
-}
-
-.testimonial-style-3-navigator .slick-prev {
-    right: 40px;
-}
-
-.testimonial-style-3-navigator .slick-next {
-    right: 0;
-}
-
-.testimonial-style-3-navigator .slick-arrow:hover {
-    background-color: #cdb30c;
-    color: #fff;
-}
 
 .map-area iframe {
     width: 100%;
