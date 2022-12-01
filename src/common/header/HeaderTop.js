@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaClock } from 'react-icons/fa';
 
 const HeaderTop = () => {
     return (
-        <div className="header-top pt-15 pb-15 theme-bg-1">
+        <div className="header-top pt-15 pb-15 bg-1">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12">

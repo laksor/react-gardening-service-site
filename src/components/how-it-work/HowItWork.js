@@ -15,7 +15,7 @@ import HowItWorkImg4 from '../../assets/images/how-it-works/4.jpg';
 const HowItWork = () => {
     return (
         <>
-            <div className="how-it-works theme-bg-4 pt-110 pb-110">
+            <div className="how-it-works bg-4 pt-110 pb-110">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">

@@ -16,7 +16,7 @@ const ProjectContent = () => {
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0">
-                    <div className="single-project-info theme-bg-1">
+                    <div className="single-project-info bg-1">
                         <span>Project Value</span>
                         <h6>$900</h6>
                     </div>

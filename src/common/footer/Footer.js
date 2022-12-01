@@ -90,7 +90,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="footer-bottom theme-bg-1 pt-40 pb-30">
+                <div className="footer-bottom bg-1 pt-40 pb-30">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">

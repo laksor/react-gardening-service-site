@@ -25,7 +25,7 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
-                                <div className="contact-box theme-bg-1 pt-60 pb-35 pl-35 pr-35 mr-40">
+                                <div className="contact-box bg-1 pt-60 pb-35 pl-35 pr-35 mr-40">
                                     <span>Gardening Excellence!</span>
                                     <h3>Expanded Gardening <br /> Services Fits All needs!</h3>
                                     <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms </p>
@@ -52,7 +52,7 @@ const ContactForm = () => {
                             <Link to="/" className="l-btn">Twitter</Link>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-6">
-                            <Link to="/" className="l-btn">Google Plus</Link>
+                            <Link to="/" className="l-btn">Instagram</Link>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-6">
                             <Link to="/" className="l-btn">Pinterest</Link>

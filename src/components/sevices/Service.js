@@ -74,7 +74,7 @@ const ServiceItem = ({ img, heading, description, serviceLink }) => {
 const Service = () => {
     return (
         <>
-            <div className="service-area theme-bg-4 pt-110 pb-110">
+            <div className="service-area bg-4 pt-110 pb-110">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">

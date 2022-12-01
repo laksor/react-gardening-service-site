@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const FunFact = () => {
     return (
-        <div className="fun-fact-area pt-60 pb-60 theme-bg-1">
+        <div className="fun-fact-area pt-60 pb-60 bg-1">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-3 col-lg-3 col-md-3">

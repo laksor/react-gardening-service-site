@@ -12,6 +12,9 @@ import Services from './pages/Services';
 import Project from './pages/Project';
 import Blog from './pages/Blogs';
 import Error from './pages/Error';
+import ServiceDetails from './pages/ServiceDetails';
+import ProjectDetails from './pages/ProjectDetails';
+import BlogDetails from './pages/BlogDetails';
 
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,10 +23,6 @@ import './assets/css/main.css';
 import './assets/css/responsive.css';
 import './assets/vendor/modal-video/modal-video.min.css';
 import './assets/vendor/slick/slick.css';
-import ServiceDetails from './pages/ServiceDetails';
-import ProjectDetails from './pages/ProjectDetails';
-import BlogDetails from './pages/BlogDetails';
-
 
 
 function App() {
