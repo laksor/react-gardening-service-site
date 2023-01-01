@@ -29,5 +29,9 @@
 
 </ul>
 
+<h2>Hosting</h2>
+
+<p>Client side Hosting - Vercel</p>
+
 
 
