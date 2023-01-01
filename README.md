@@ -7,5 +7,27 @@
 
 <h2>Code Link</h2><a href="https://github.com/laksor/react-gardening-service-site" rel="nofollow">https://github.com/laksor/react-gardening-service-site</a>
 
+<h2>Features and Functionality</h2>
+
+<h2>Used Technology</h2>
+
+<ul> 
+  <li>React Js</li>
+</ul>
+
+<h2>Used Library</h2>
+
+<ul> 
+  <li>Bootstrap 5.2.x</li>
+  <li>Font Awesome 5 </li>
+  <li>React Bootstrap</li>
+  <li>UUIDV4</li>
+  <li>React Router 6</li>
+  <li>React CounterUp</li>
+  <li>React Accessible Accordion</li>
+  <li>React Scroll To Top</li>
+
+</ul>
+
 
 
