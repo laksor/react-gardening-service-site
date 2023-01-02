@@ -21,6 +21,9 @@
 
 <ul> 
   <li>React Js</li>
+  <li>Javascript (ES6)</li>
+  <li>HTML-5</li>
+  <li>CSS-3</li>
 </ul>
 
 <h2>Used Library</h2>
