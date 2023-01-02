@@ -12,7 +12,7 @@
 <ul> 
   <li> Clean Code with with 100% Responsiveness </li>
   <li> 7 Pages (Home,about,services,projects,blog,faq and contact) </li>
-  <li> Each service and project have their own details page </li>
+  <li> Each service and project have their own details page & also have a contact form </li>
   <li> Sticky Menu , React Scroll To Top & React CounterUp added </li>
   <li>Faq using React Accessible Accordion</li>
 </ul>
